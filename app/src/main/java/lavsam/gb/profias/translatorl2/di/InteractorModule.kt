@@ -7,7 +7,6 @@ import lavsam.gb.profias.translatorl2.model.Vocabulary
 import lavsam.gb.profias.translatorl2.model.repository.Repository
 import javax.inject.Named
 
-
 @Module
 class InteractorModule {
 

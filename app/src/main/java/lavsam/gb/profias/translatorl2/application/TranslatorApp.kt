@@ -7,7 +7,7 @@ import dagger.android.HasAndroidInjector
 import lavsam.gb.profias.translatorl2.di.DaggerAppComponent
 import javax.inject.Inject
 
-class TranslatorApp  : Application(), HasAndroidInjector {
+class TranslatorApp : Application(), HasAndroidInjector {
 
     @Inject
     lateinit var dispatchingAndroidInjector: DispatchingAndroidInjector<Any>

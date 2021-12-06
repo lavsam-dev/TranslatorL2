@@ -17,15 +17,19 @@ class RepositoryModule {
     @Provides
     @Singleton
     @Named(NAME_REMOTE)
-    internal fun provideRepositoryRemote(@Named(NAME_REMOTE) dataSourceRemote:
-        DataSource<List<Vocabulary>>): Repository<List<Vocabulary>> =
+    internal fun provideRepositoryRemote(
+        @Named(NAME_REMOTE) dataSourceRemote:
+        DataSource<List<Vocabulary>>
+    ): Repository<List<Vocabulary>> =
         RepositoryImplementation(dataSourceRemote)
 
     @Provides
     @Singleton
     @Named(NAME_LOCAL)
-    internal fun provideRepositoryLocal(@Named(NAME_LOCAL) dataSourceLocal:
-        DataSource<List<Vocabulary>>): Repository<List<Vocabulary>> =
+    internal fun provideRepositoryLocal(
+        @Named(NAME_LOCAL) dataSourceLocal:
+        DataSource<List<Vocabulary>>
+    ): Repository<List<Vocabulary>> =
         RepositoryImplementation(dataSourceLocal)
 
     @Provides
