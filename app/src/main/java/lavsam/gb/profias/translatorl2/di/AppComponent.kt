@@ -4,7 +4,7 @@ import android.app.Application
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.support.AndroidSupportInjectionModule
-import lavsam.gb.profias.translatorl2.ui.main.TranslatorApp
+import lavsam.gb.profias.translatorl2.application.TranslatorApp
 import javax.inject.Singleton
 
 @Component(

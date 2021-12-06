@@ -1,9 +1,10 @@
-package lavsam.gb.profias.translatorl2.ui.main
+package lavsam.gb.profias.translatorl2.application
 
 import android.app.Application
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector
+import lavsam.gb.profias.translatorl2.di.DaggerAppComponent
 import javax.inject.Inject
 
 class TranslatorApp  : Application(), HasAndroidInjector {
